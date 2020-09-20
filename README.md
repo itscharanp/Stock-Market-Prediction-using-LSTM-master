@@ -13,13 +13,16 @@ Predicting NIFTY50 index movement for 7 days period. LSTM layers are used in ker
 
 Project is divided into three parts:
 
-STEP 1
+<b>STEP 1</b>
+
 Scraped Wiki's NIFTY50 page to get ticker symbols
 Used Quandl API to fetch stock data for past 5 years
-STEP 2
+
+<b>STEP 2</b>
 Label training data as 0(sell) and 1(buy)
 Scale data using sklearn preprocessing libarary
-STEP 3
+
+<b>STEP 3 </b>
 Build LSTM model in keras.
 Usage:
 Run the ipynb file on colab or jupyter notebook.
